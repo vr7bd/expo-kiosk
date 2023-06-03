@@ -9,11 +9,11 @@ class ExpoKioskModule : Module() {
     Name("ExpoKiosk")
 
     Function("killApp") {
-      android.util.Log.d("BD", "killing")
+      android.util.Log.d("expo-exit", "killing")
       android.os.Process.killProcess(android.os.Process.myPid());
     }
     Function("exitApp") {
-      android.util.Log.d("BD", "exiting")
+      android.util.Log.d("expo-exit", "exiting")
       val sharingIntent = Intent(Intent.ACTION_MAIN)
       sharingIntent.addCategory(Intent.CATEGORY_HOME)
       sharingIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)

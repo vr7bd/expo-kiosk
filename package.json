@@ -1,6 +1,6 @@
 {
   "name": "expo-kiosk",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "description": "Module that ensure android apps run in kiosk mode and has functions to exit out of kiosk mode",
   "main": "build/index.js",
   "types": "build/index.d.ts",
