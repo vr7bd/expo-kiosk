@@ -1,6 +1,6 @@
 {
   "name": "expo-kiosk",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "Module that ensure android apps run in kiosk mode and has functions to exit out of kiosk mode",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -28,12 +28,11 @@
   "author": "vr7bd <varun@zoapi.com> (https://github.com/vr7bd)",
   "license": "MIT",
   "homepage": "https://github.com/vr7bd/expo-kiosk#readme",
-  "dependencies": {},
   "devDependencies": {
     "@types/react": "^18.0.25",
     "@types/react-native": "^0.70.6",
     "expo-module-scripts": "^3.0.4",
-    "expo-modules-core": "^1.1.0"
+    "expo-modules-core": "^1.5.8"
   },
   "peerDependencies": {
     "expo": "*",
