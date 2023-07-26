@@ -6,12 +6,9 @@ public class ExpoKioskModule: Module {
    
     Name("ExpoKiosk")
 
-      Function("killApp") {
-          return "Hello world! 👋"
-      }
-      Function("killApp") {
-          return "Hello world! 👋"
-      }
+       Function("disableKioskMode") {
+
+        }
        
   }
 }
