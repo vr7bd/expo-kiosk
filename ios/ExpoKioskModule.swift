@@ -6,9 +6,14 @@ public class ExpoKioskModule: Module {
    
     Name("ExpoKiosk")
 
-       Function("disableKioskMode") {
+    Function("disableKioskMode") {
 
-        }
+    }
+
+    Function("leaveApp") {
+
+    }
+      
        
   }
 }
